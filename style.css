@@ -3,14 +3,32 @@
     padding: 0;
 }
 
-.grid {
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px 22px 0;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.grid, .grid1 {
     display: flex;   /* <--- required */
     justify-content: center;
-    height: 100vh;
+    height: 960px;
     align-items: center;
+    width: 960px;
 }
 
 .row {
+    display: flex;
     margin: 1px;
     height: 20px;
     width: 20px;
